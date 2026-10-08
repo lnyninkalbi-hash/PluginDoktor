@@ -1,1 +1,15 @@
-
+name: PluginDoktor
+version: 1.0
+main: com.example.plugindoktor.PluginDoktor
+api-version: "26.2"
+description: Sorunlu pluginleri ve dosya yollarini gosterir
+commands:
+  plugindoktor:
+    description: Plugin ve sunucu saglik taramasi
+    usage: /plugindoktor [tum|temizle]
+    aliases: [pdoktor]
+    permission: plugindoktor.admin
+permissions:
+  plugindoktor.admin:
+    description: PluginDoktor kullanma yetkisi
+    default: op
