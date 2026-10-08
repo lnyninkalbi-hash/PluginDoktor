@@ -1,7 +1,7 @@
 name: PluginDoktor
 version: 1.0
 main: com.example.plugindoktor.PluginDoktor
-api-version: "26.2"
+api-version: "1.20"
 description: Sorunlu pluginleri ve dosya yollarini gosterir
 commands:
   plugindoktor:
